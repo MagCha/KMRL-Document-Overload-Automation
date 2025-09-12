@@ -1,0 +1,51 @@
+table_name,field_name,language,translation,record_id
+stops,stop_name,ml,ആലുവ,ALVA
+stops,stop_name,hi,आलुवा,ALVA
+stops,stop_name,ml,പുളിഞ്ചോട്,PNCU
+stops,stop_name,hi,पुलिनचोडु,PNCU
+stops,stop_name,ml,കമ്പനിപ്പടി,CPPY
+stops,stop_name,hi,कंपनीपडी,CPPY
+stops,stop_name,ml,അമ്പാട്ടുകാവ്,ATTK
+stops,stop_name,hi,अम्बाटुकाव्,ATTK
+stops,stop_name,ml,മുട്ടം,MUTT
+stops,stop_name,hi,मुट्टम,MUTT
+stops,stop_name,ml,കളമശ്ശേരി,KLMT
+stops,stop_name,hi,कलमशेरी,KLMT
+stops,stop_name,ml,കൊച്ചിൻ യൂണിവേഴ്സിറ്റി,CCUV
+stops,stop_name,hi,कोच्चिन यूनिवर्सिटी,CCUV
+stops,stop_name,ml,പത്തടിപ്പോലം,PDPM
+stops,stop_name,hi,पत्तडिप्पालम,PDPM
+stops,stop_name,ml,ഇടപ്പള്ളി,EDAP
+stops,stop_name,hi,इडप्पल्ली,EDAP
+stops,stop_name,ml,ചങ്ങമ്പുഴ പാർക്ക്,CGPP
+stops,stop_name,hi,चंगमपुष़ा पार्क,CGPP
+stops,stop_name,ml,പാലാരിവട്ടം,PARV
+stops,stop_name,hi,पालारिवट्टम,PARV
+stops,stop_name,ml,ജെ എൽ എൻ സ്റ്റേഡിയം,JLSD
+stops,stop_name,hi,जे.एल.एन स्टेडियम,JLSD
+stops,stop_name,ml,കലൂർ,KALR
+stops,stop_name,hi,कलूर,KALR
+stops,stop_name,ml,ടൗൺ ഹാൾ,TNHL
+stops,stop_name,hi,टाउन हॉल,TNHL
+stops,stop_name,ml,എം.ജി റോഡ്,MGRD
+stops,stop_name,hi,एम जी रोड,MGRD
+stops,stop_name,ml,മഹാരാജാസ് കോളേജ്,MACE
+stops,stop_name,hi,महाराजास् कॉलज,MACE
+stops,stop_name,ml,എറണാകുളം സൗത്ത്,ERSH
+stops,stop_name,hi,एर्नाकुलम साउथ,ERSH
+stops,stop_name,ml,കടവന്ത്ര,KVTR
+stops,stop_name,hi,कडवान्त्र,KVTR
+stops,stop_name,ml,ഇളങ്കുളം,EMKM
+stops,stop_name,hi,एलमकुलम,EMKM
+stops,stop_name,ml,വൈറ്റില,VYTA
+stops,stop_name,hi,व्यत्तिला,VYTA
+stops,stop_name,ml,തൈക്കൂടം,THYK
+stops,stop_name,hi,थाईकूडम,THYK
+stops,stop_name,ml,പേട്ട,PETT
+stops,stop_name,hi,पेट्टा,PETT
+stops,stop_name,ml,വടക്കേക്കോട്ട,VAKK
+stops,stop_name,hi,वडक्केकोटा,VAKK
+stops,stop_name,ml,എസ്. എൻ. ജംഗ്ഷൻ,SNJN
+stops,stop_name,hi,एस.एन. जंक्शन,SNJN
+stops,stop_name,ml,തൃപ്പൂണിത്തുറ,TPHT
+stops,stop_name,hi,त्रिपुनिथुरा,TPHT
