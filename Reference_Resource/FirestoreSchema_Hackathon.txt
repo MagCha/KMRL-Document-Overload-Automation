@@ -1,0 +1,80 @@
+Firebase Firestore Schema for Kochi Metro Induction Planning (Hackathon Version)
+
+1. users Collection
+Path: /artifacts/{appId}/users
+Document ID: userId
+Fields:
+- lastLogin (Timestamp)
+- createdAt (Timestamp)
+- role (String: 'Supervisor', 'Admin', etc.)
+
+2. trainsets Collection
+Path: /artifacts/{appId}/users/{userId}/trainsets
+Document ID: trainsetId
+Fields:
+- trainsetId (String)
+- fleetNumber (Number)
+- currentStatus (String: 'Revenue Service', 'Standby', 'Inspection Bay Line')
+- lastUpdated (Timestamp)
+- lastRevenueServiceDate (Timestamp)
+- stablingPosition (String, ref to stabling_bays)
+- notes (String)
+
+3. health_and_maintenance Collection
+Path: /artifacts/{appId}/users/{userId}/health_and_maintenance
+Document ID: Auto-generated
+Fields:
+- trainsetId (String)
+- category (String: 'Fitness Certificate', 'Job Card', 'Mileage')
+- department (String)
+- validityWindowStart (Timestamp)
+- validityWindowEnd (Timestamp)
+- isClear (Boolean)
+- jobCardId (String)
+- status (String)
+- description (String)
+- completionDate (Timestamp)
+- value (Number)
+- lastRecordedDate (Timestamp)
+- updatedBy (String: userId)
+- updatedAt (Timestamp)
+
+4. branding_priorities Collection
+Path: /artifacts/{appId}/public/data/branding_priorities
+Document ID: Auto-generated
+Fields:
+- trainsetId (String)
+- advertiser (String)
+- contractId (String)
+- contractualHoursRequired (Number)
+- hoursExposedToDate (Number)
+- startDate (Timestamp)
+- endDate (Timestamp)
+- updatedBy (String: userId)
+- updatedAt (Timestamp)
+
+5. stabling_bays Collection
+Path: /artifacts/{appId}/users/{userId}/stabling_bays
+Document ID: bayId
+Fields:
+- bayId (String)
+- trainsetId (String, nullable)
+- bayType (String: 'Revenue', 'Standby', 'IBL')
+- isClean (Boolean)
+- lastUsedDate (Timestamp)
+- updatedBy (String: userId)
+- updatedAt (Timestamp)
+
+6. cleaning_slots Collection
+Path: /artifacts/{appId}/users/{userId}/cleaning_slots
+Document ID: Auto-generated
+Fields:
+- slotId (String)
+- startTime (Timestamp)
+- endTime (Timestamp)
+- isOccupied (Boolean)
+- trainsetId (String, nullable)
+- manpowerAllocated (Number)
+- type (String: 'Deep Clean', 'Interior Detailing')
+- updatedBy (String: userId)
+- updatedAt (Timestamp)
