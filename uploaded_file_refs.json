@@ -1,0 +1,32 @@
+[
+  {
+    "name": "files/nbhtf7qybgb7",
+    "display_name": "branding_priorities.csv",
+    "local_path": "ArtificialData\\branding_priorities.csv"
+  },
+  {
+    "name": "files/aj4w642cgw1o",
+    "display_name": "cleaning_slots.csv",
+    "local_path": "ArtificialData\\cleaning_slots.csv"
+  },
+  {
+    "name": "files/uvxzfk7nf3kw",
+    "display_name": "health_and_maintenance.csv",
+    "local_path": "ArtificialData\\health_and_maintenance.csv"
+  },
+  {
+    "name": "files/7bx2xmg4krv1",
+    "display_name": "stabling_bays.csv",
+    "local_path": "ArtificialData\\stabling_bays.csv"
+  },
+  {
+    "name": "files/0oj7763bqrcb",
+    "display_name": "trainsets.csv",
+    "local_path": "ArtificialData\\trainsets.csv"
+  },
+  {
+    "name": "files/xhucpiaub75x",
+    "display_name": "users.csv",
+    "local_path": "ArtificialData\\users.csv"
+  }
+]

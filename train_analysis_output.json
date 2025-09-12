@@ -1,0 +1,92 @@
+{
+  "csv_files_analyzed": [
+    "train_data.csv",
+    "slots.csv",
+    "train_status.csv",
+    "bay_data.csv",
+    "user_data.csv"
+  ],
+  "question": "Which Train is due cleaning and which Train is out of service in the dataset?",
+  "answer": "Trains due for cleaning: TS003, TS004, TS005, TS007, TS008. Trains out of service: TS010, TS015, TS018, TS020, TS025.  Details are in the respective arrays.",
+  "question_type": "summary",
+  "summary": {
+    "total_files_analyzed": 5,
+    "total_trains_due_cleaning": 5,
+    "total_trains_out_of_service": 5
+  },
+  "pandas_code": "import pandas as pd\n\ntrain_data = pd.read_csv('train_data.csv')\nslots = pd.read_csv('slots.csv')\ntrain_status = pd.read_csv('train_status.csv')\nbay_data = pd.read_csv('bay_data.csv')\n\n#Cleaning\ndue_cleaning = train_status[train_status['currentStatus'].str.contains('Minor cleaning required')]['trainsetId'].tolist()\n\n#Out of service\nout_of_service = train_status[train_status['currentStatus'] == 'Standby']['trainsetId'].tolist()",
+  "trains_due_cleaning": [
+    {
+      "last_cleaned": "null",
+      "source_file": "train_status.csv",
+      "status": "Revenue Service",
+      "train_id": "TS003",
+      "train_name": "null"
+    },
+    {
+      "last_cleaned": "null",
+      "source_file": "train_status.csv",
+      "status": "Revenue Service",
+      "train_id": "TS004",
+      "train_name": "null"
+    },
+    {
+      "last_cleaned": "null",
+      "source_file": "train_status.csv",
+      "status": "Revenue Service",
+      "train_id": "TS005",
+      "train_name": "null"
+    },
+    {
+      "last_cleaned": "null",
+      "source_file": "train_status.csv",
+      "status": "Revenue Service",
+      "train_id": "TS007",
+      "train_name": "null"
+    },
+    {
+      "last_cleaned": "null",
+      "source_file": "train_status.csv",
+      "status": "Revenue Service",
+      "train_id": "TS008",
+      "train_name": "null"
+    }
+  ],
+  "trains_out_of_service": [
+    {
+      "reason": "Door system check",
+      "source_file": "train_status.csv",
+      "status": "Standby",
+      "train_id": "TS010",
+      "train_name": "null"
+    },
+    {
+      "reason": "Door system check",
+      "source_file": "train_status.csv",
+      "status": "Standby",
+      "train_id": "TS015",
+      "train_name": "null"
+    },
+    {
+      "reason": "Door system check",
+      "source_file": "train_status.csv",
+      "status": "Standby",
+      "train_id": "TS018",
+      "train_name": "null"
+    },
+    {
+      "reason": "Signal system test",
+      "source_file": "train_status.csv",
+      "status": "Inspection Bay Line",
+      "train_id": "TS020",
+      "train_name": "null"
+    },
+    {
+      "reason": "Minor cleaning required",
+      "source_file": "train_status.csv",
+      "status": "Standby",
+      "train_id": "TS025",
+      "train_name": "null"
+    }
+  ]
+}
