@@ -1,191 +1,191 @@
 trainsetId,category,department,validityWindowStart,validityWindowEnd,isClear,jobCardId,status,description,completionDate,value,lastRecordedDate,updatedBy,updatedAt
 TS001,Fitness Certificate,Rolling-Stock,2025-07-14T21:00:00Z,2025-08-13T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
 TS001,Fitness Certificate,Signalling,2025-07-27T21:00:00Z,2025-08-26T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
-TS001,Fitness Certificate,Telecom,2025-07-30T21:00:00Z,2025-08-29T21:00:00Z,False,,,,,,,user008,2025-09-12T20:00:00Z
-TS001,Job Card,,,,,JC0001,In Progress,Wheel inspection,,,,user002,2025-09-12T20:00:00Z
-TS001,Job Card,,,,,JC0002,Open,Communication equipment check,,,,user024,2025-09-12T20:00:00Z
-TS001,Job Card,,,,,JC0003,In Progress,Pantograph inspection,,,,user011,2025-09-12T20:00:00Z
-TS001,Job Card,,,,,JC0004,Open,Battery replacement,,,,user015,2025-09-12T20:00:00Z
+TS001,Fitness Certificate,Telecom,2025-07-30T21:00:00Z,2025-08-29T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
+TS001,Job Card,,,,,JC0001,Closed,Wheel inspection,,,,user002,2025-09-12T20:00:00Z
+TS001,Job Card,,,,,JC0002,Closed,Communication equipment check,,,,user024,2025-09-12T20:00:00Z
+TS001,Job Card,,,,,JC0003,Closed,Pantograph inspection,,,,user011,2025-09-12T20:00:00Z
+TS001,Job Card,,,,,JC0004,Closed,Battery replacement,,,,user015,2025-09-12T20:00:00Z
 TS001,Job Card,,,,,JC0005,Closed,Exterior wash,2025-09-11T21:00:00Z,,,user009,2025-09-12T20:00:00Z
-TS001,Mileage,,,,,,,,,145612,2025-09-11T21:00:00Z,user024,2025-09-12T20:00:00Z
+TS001,Mileage,,,,,,,,,145612.0,2025-09-11T21:00:00Z,user024,2025-09-12T20:00:00Z
 TS002,Fitness Certificate,Rolling-Stock,2025-07-14T21:00:00Z,2025-08-13T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS002,Fitness Certificate,Signalling,2025-07-14T21:00:00Z,2025-08-13T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS002,Fitness Certificate,Telecom,2025-08-14T21:00:00Z,2025-09-13T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
-TS002,Job Card,,,,,JC0006,Open,Safety system test,,,,user011,2025-09-12T20:00:00Z
-TS002,Job Card,,,,,JC0007,Pending Review,Brake pad replacement,,,,user003,2025-09-12T20:00:00Z
-TS002,Job Card,,,,,JC0008,In Progress,LED light replacement,,,,user009,2025-09-12T20:00:00Z
-TS002,Mileage,,,,,,,,,111385,2025-09-12T21:00:00Z,user016,2025-09-12T20:00:00Z
+TS002,Job Card,,,,,JC0006,Closed,Safety system test,,,,user011,2025-09-12T20:00:00Z
+TS002,Job Card,,,,,JC0007,Closed,Brake pad replacement,,,,user003,2025-09-12T20:00:00Z
+TS002,Job Card,,,,,JC0008,Closed,LED light replacement,,,,user009,2025-09-12T20:00:00Z
+TS002,Mileage,,,,,,,,,111385.0,2025-09-12T21:00:00Z,user016,2025-09-12T20:00:00Z
 TS003,Fitness Certificate,Rolling-Stock,2025-08-18T21:00:00Z,2025-09-17T21:00:00Z,True,,,,,,,user030,2025-09-12T20:00:00Z
 TS003,Fitness Certificate,Signalling,2025-07-23T21:00:00Z,2025-08-22T21:00:00Z,True,,,,,,,user030,2025-09-12T20:00:00Z
 TS003,Fitness Certificate,Telecom,2025-07-20T21:00:00Z,2025-08-19T21:00:00Z,True,,,,,,,user030,2025-09-12T20:00:00Z
-TS003,Job Card,,,,,JC0009,Pending Review,Wheel inspection,,,,user008,2025-09-12T20:00:00Z
-TS003,Job Card,,,,,JC0010,In Progress,Wheel inspection,,,,user030,2025-09-12T20:00:00Z
-TS003,Job Card,,,,,JC0011,Pending Review,Signal equipment check,,,,user024,2025-09-12T20:00:00Z
-TS003,Mileage,,,,,,,,,178994,2025-09-11T21:00:00Z,user009,2025-09-12T20:00:00Z
-TS004,Fitness Certificate,Rolling-Stock,2025-07-31T21:00:00Z,2025-08-30T21:00:00Z,False,,,,,,,user015,2025-09-12T20:00:00Z
-TS004,Fitness Certificate,Signalling,2025-07-21T21:00:00Z,2025-08-20T21:00:00Z,False,,,,,,,user015,2025-09-12T20:00:00Z
+TS003,Job Card,,,,,JC0009,Closed,Wheel inspection,,,,user008,2025-09-12T20:00:00Z
+TS003,Job Card,,,,,JC0010,Closed,Wheel inspection,,,,user030,2025-09-12T20:00:00Z
+TS003,Job Card,,,,,JC0011,Closed,Signal equipment check,,,,user024,2025-09-12T20:00:00Z
+TS003,Mileage,,,,,,,,,178994.0,2025-09-11T21:00:00Z,user009,2025-09-12T20:00:00Z
+TS004,Fitness Certificate,Rolling-Stock,2025-07-31T21:00:00Z,2025-08-30T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
+TS004,Fitness Certificate,Signalling,2025-07-21T21:00:00Z,2025-08-20T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
 TS004,Fitness Certificate,Telecom,2025-08-16T21:00:00Z,2025-09-15T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
-TS004,Job Card,,,,,JC0012,Open,Branding update,,,,user002,2025-09-12T20:00:00Z
+TS004,Job Card,,,,,JC0012,Closed,Branding update,,,,user002,2025-09-12T20:00:00Z
 TS004,Job Card,,,,,JC0013,Closed,Safety system test,2025-09-04T21:00:00Z,,,user002,2025-09-12T20:00:00Z
-TS004,Job Card,,,,,JC0014,Open,Bogie maintenance,,,,user002,2025-09-12T20:00:00Z
-TS004,Mileage,,,,,,,,,110007,2025-09-12T21:00:00Z,user002,2025-09-12T20:00:00Z
+TS004,Job Card,,,,,JC0014,Closed,Bogie maintenance,,,,user002,2025-09-12T20:00:00Z
+TS004,Mileage,,,,,,,,,110007.0,2025-09-12T21:00:00Z,user002,2025-09-12T20:00:00Z
 TS005,Fitness Certificate,Rolling-Stock,2025-08-19T21:00:00Z,2025-09-18T21:00:00Z,True,,,,,,,user011,2025-09-12T20:00:00Z
-TS005,Fitness Certificate,Signalling,2025-08-06T21:00:00Z,2025-09-05T21:00:00Z,False,,,,,,,user011,2025-09-12T20:00:00Z
+TS005,Fitness Certificate,Signalling,2025-08-06T21:00:00Z,2025-09-05T21:00:00Z,True,,,,,,,user011,2025-09-12T20:00:00Z
 TS005,Fitness Certificate,Telecom,2025-08-10T21:00:00Z,2025-09-09T21:00:00Z,True,,,,,,,user011,2025-09-12T20:00:00Z
 TS005,Job Card,,,,,JC0015,Closed,Pantograph inspection,2025-08-27T21:00:00Z,,,user015,2025-09-12T20:00:00Z
 TS005,Job Card,,,,,JC0016,Closed,HVAC maintenance,2025-09-08T21:00:00Z,,,user015,2025-09-12T20:00:00Z
-TS005,Job Card,,,,,JC0017,In Progress,Interior cleaning,,,,user015,2025-09-12T20:00:00Z
-TS005,Job Card,,,,,JC0018,Pending Review,Emergency brake test,,,,user002,2025-09-12T20:00:00Z
-TS005,Job Card,,,,,JC0019,Open,Brake pad replacement,,,,user015,2025-09-12T20:00:00Z
-TS005,Mileage,,,,,,,,,175448,2025-09-10T21:00:00Z,user003,2025-09-12T20:00:00Z
+TS005,Job Card,,,,,JC0017,Closed,Interior cleaning,,,,user015,2025-09-12T20:00:00Z
+TS005,Job Card,,,,,JC0018,Closed,Emergency brake test,,,,user002,2025-09-12T20:00:00Z
+TS005,Job Card,,,,,JC0019,Closed,Brake pad replacement,,,,user015,2025-09-12T20:00:00Z
+TS005,Mileage,,,,,,,,,175448.0,2025-09-10T21:00:00Z,user003,2025-09-12T20:00:00Z
 TS006,Fitness Certificate,Rolling-Stock,2025-08-11T21:00:00Z,2025-09-10T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
-TS006,Fitness Certificate,Signalling,2025-07-20T21:00:00Z,2025-08-19T21:00:00Z,False,,,,,,,user016,2025-09-12T20:00:00Z
-TS006,Fitness Certificate,Telecom,2025-08-15T21:00:00Z,2025-09-14T21:00:00Z,False,,,,,,,user016,2025-09-12T20:00:00Z
-TS006,Job Card,,,,,JC0020,In Progress,Exterior wash,,,,user016,2025-09-12T20:00:00Z
-TS006,Job Card,,,,,JC0021,Open,Exterior wash,,,,user024,2025-09-12T20:00:00Z
-TS006,Job Card,,,,,JC0022,Open,Brake pad replacement,,,,user024,2025-09-12T20:00:00Z
-TS006,Mileage,,,,,,,,,189579,2025-09-12T21:00:00Z,user003,2025-09-12T20:00:00Z
-TS007,Fitness Certificate,Rolling-Stock,2025-08-13T21:00:00Z,2025-09-12T21:00:00Z,False,,,,,,,user016,2025-09-12T20:00:00Z
-TS007,Fitness Certificate,Signalling,2025-07-23T21:00:00Z,2025-08-22T21:00:00Z,False,,,,,,,user016,2025-09-12T20:00:00Z
-TS007,Fitness Certificate,Telecom,2025-08-10T21:00:00Z,2025-09-09T21:00:00Z,False,,,,,,,user016,2025-09-12T20:00:00Z
+TS006,Fitness Certificate,Signalling,2025-07-20T21:00:00Z,2025-08-19T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
+TS006,Fitness Certificate,Telecom,2025-08-15T21:00:00Z,2025-09-14T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
+TS006,Job Card,,,,,JC0020,Closed,Exterior wash,,,,user016,2025-09-12T20:00:00Z
+TS006,Job Card,,,,,JC0021,Closed,Exterior wash,,,,user024,2025-09-12T20:00:00Z
+TS006,Job Card,,,,,JC0022,Closed,Brake pad replacement,,,,user024,2025-09-12T20:00:00Z
+TS006,Mileage,,,,,,,,,189579.0,2025-09-12T21:00:00Z,user003,2025-09-12T20:00:00Z
+TS007,Fitness Certificate,Rolling-Stock,2025-08-13T21:00:00Z,2025-09-12T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
+TS007,Fitness Certificate,Signalling,2025-07-23T21:00:00Z,2025-08-22T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
+TS007,Fitness Certificate,Telecom,2025-08-10T21:00:00Z,2025-09-09T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
 TS007,Job Card,,,,,JC0023,Closed,Interior cleaning,2025-09-11T21:00:00Z,,,user015,2025-09-12T20:00:00Z
-TS007,Job Card,,,,,JC0024,In Progress,LED light replacement,,,,user018,2025-09-12T20:00:00Z
-TS007,Mileage,,,,,,,,,117388,2025-09-09T21:00:00Z,user024,2025-09-12T20:00:00Z
+TS007,Job Card,,,,,JC0024,Closed,LED light replacement,,,,user018,2025-09-12T20:00:00Z
+TS007,Mileage,,,,,,,,,117388.0,2025-09-09T21:00:00Z,user024,2025-09-12T20:00:00Z
 TS008,Fitness Certificate,Rolling-Stock,2025-08-14T21:00:00Z,2025-09-13T21:00:00Z,True,,,,,,,user018,2025-09-12T20:00:00Z
 TS008,Fitness Certificate,Signalling,2025-08-05T21:00:00Z,2025-09-04T21:00:00Z,True,,,,,,,user018,2025-09-12T20:00:00Z
 TS008,Fitness Certificate,Telecom,2025-08-20T21:00:00Z,2025-09-19T21:00:00Z,True,,,,,,,user018,2025-09-12T20:00:00Z
-TS008,Job Card,,,,,JC0025,Open,Brake pad replacement,,,,user030,2025-09-12T20:00:00Z
-TS008,Job Card,,,,,JC0026,Pending Review,Wheel inspection,,,,user024,2025-09-12T20:00:00Z
+TS008,Job Card,,,,,JC0025,Closed,Brake pad replacement,,,,user030,2025-09-12T20:00:00Z
+TS008,Job Card,,,,,JC0026,Closed,Wheel inspection,,,,user024,2025-09-12T20:00:00Z
 TS008,Job Card,,,,,JC0027,Closed,Brake pad replacement,2025-08-26T21:00:00Z,,,user003,2025-09-12T20:00:00Z
 TS008,Job Card,,,,,JC0028,Closed,HVAC maintenance,2025-08-23T21:00:00Z,,,user003,2025-09-12T20:00:00Z
-TS008,Mileage,,,,,,,,,168501,2025-09-11T21:00:00Z,user015,2025-09-12T20:00:00Z
+TS008,Mileage,,,,,,,,,168501.0,2025-09-11T21:00:00Z,user015,2025-09-12T20:00:00Z
 TS009,Fitness Certificate,Rolling-Stock,2025-07-18T21:00:00Z,2025-08-17T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS009,Fitness Certificate,Signalling,2025-07-17T21:00:00Z,2025-08-16T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS009,Fitness Certificate,Telecom,2025-07-15T21:00:00Z,2025-08-14T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
-TS009,Job Card,,,,,JC0029,In Progress,LED light replacement,,,,user009,2025-09-12T20:00:00Z
+TS009,Job Card,,,,,JC0029,Closed,LED light replacement,,,,user009,2025-09-12T20:00:00Z
 TS009,Job Card,,,,,JC0030,Closed,Communication equipment check,2025-08-20T21:00:00Z,,,user011,2025-09-12T20:00:00Z
 TS009,Job Card,,,,,JC0031,Closed,Battery replacement,2025-08-30T21:00:00Z,,,user008,2025-09-12T20:00:00Z
-TS009,Job Card,,,,,JC0032,In Progress,Exterior wash,,,,user011,2025-09-12T20:00:00Z
-TS009,Job Card,,,,,JC0033,Open,Brake pad replacement,,,,user018,2025-09-12T20:00:00Z
-TS009,Mileage,,,,,,,,,161416,2025-09-12T21:00:00Z,user003,2025-09-12T20:00:00Z
+TS009,Job Card,,,,,JC0032,Closed,Exterior wash,,,,user011,2025-09-12T20:00:00Z
+TS009,Job Card,,,,,JC0033,Closed,Brake pad replacement,,,,user018,2025-09-12T20:00:00Z
+TS009,Mileage,,,,,,,,,161416.0,2025-09-12T21:00:00Z,user003,2025-09-12T20:00:00Z
 TS010,Fitness Certificate,Rolling-Stock,2025-08-10T21:00:00Z,2025-09-09T21:00:00Z,True,,,,,,,user024,2025-09-12T20:00:00Z
 TS010,Fitness Certificate,Signalling,2025-08-15T21:00:00Z,2025-09-14T21:00:00Z,True,,,,,,,user024,2025-09-12T20:00:00Z
 TS010,Fitness Certificate,Telecom,2025-08-19T21:00:00Z,2025-09-18T21:00:00Z,True,,,,,,,user024,2025-09-12T20:00:00Z
-TS010,Job Card,,,,,JC0034,In Progress,Door system repair,,,,user018,2025-09-12T20:00:00Z
-TS010,Job Card,,,,,JC0035,In Progress,Safety system test,,,,user024,2025-09-12T20:00:00Z
-TS010,Job Card,,,,,JC0036,Open,Communication equipment check,,,,user024,2025-09-12T20:00:00Z
-TS010,Job Card,,,,,JC0037,In Progress,LED light replacement,,,,user003,2025-09-12T20:00:00Z
-TS010,Mileage,,,,,,,,,195097,2025-09-11T21:00:00Z,user009,2025-09-12T20:00:00Z
+TS010,Job Card,,,,,JC0034,Closed,Door system repair,,,,user018,2025-09-12T20:00:00Z
+TS010,Job Card,,,,,JC0035,Closed,Safety system test,,,,user024,2025-09-12T20:00:00Z
+TS010,Job Card,,,,,JC0036,Closed,Communication equipment check,,,,user024,2025-09-12T20:00:00Z
+TS010,Job Card,,,,,JC0037,Closed,LED light replacement,,,,user003,2025-09-12T20:00:00Z
+TS010,Mileage,,,,,,,,,195097.0,2025-09-11T21:00:00Z,user009,2025-09-12T20:00:00Z
 TS011,Fitness Certificate,Rolling-Stock,2025-08-17T21:00:00Z,2025-09-16T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS011,Fitness Certificate,Signalling,2025-08-06T21:00:00Z,2025-09-05T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS011,Fitness Certificate,Telecom,2025-07-16T21:00:00Z,2025-08-15T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS011,Job Card,,,,,JC0038,Closed,Communication equipment check,2025-08-22T21:00:00Z,,,user009,2025-09-12T20:00:00Z
-TS011,Job Card,,,,,JC0039,Pending Review,Battery replacement,,,,user002,2025-09-12T20:00:00Z
-TS011,Job Card,,,,,JC0040,Open,Communication equipment check,,,,user015,2025-09-12T20:00:00Z
-TS011,Job Card,,,,,JC0041,In Progress,Brake pad replacement,,,,user002,2025-09-12T20:00:00Z
-TS011,Mileage,,,,,,,,,123719,2025-09-11T21:00:00Z,user009,2025-09-12T20:00:00Z
-TS012,Fitness Certificate,Rolling-Stock,2025-07-26T21:00:00Z,2025-08-25T21:00:00Z,False,,,,,,,user008,2025-09-12T20:00:00Z
+TS011,Job Card,,,,,JC0039,Closed,Battery replacement,,,,user002,2025-09-12T20:00:00Z
+TS011,Job Card,,,,,JC0040,Closed,Communication equipment check,,,,user015,2025-09-12T20:00:00Z
+TS011,Job Card,,,,,JC0041,Closed,Brake pad replacement,,,,user002,2025-09-12T20:00:00Z
+TS011,Mileage,,,,,,,,,123719.0,2025-09-11T21:00:00Z,user009,2025-09-12T20:00:00Z
+TS012,Fitness Certificate,Rolling-Stock,2025-07-26T21:00:00Z,2025-08-25T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
 TS012,Fitness Certificate,Signalling,2025-07-19T21:00:00Z,2025-08-18T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
 TS012,Fitness Certificate,Telecom,2025-08-16T21:00:00Z,2025-09-15T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
-TS012,Job Card,,,,,JC0042,Open,Emergency brake test,,,,user011,2025-09-12T20:00:00Z
+TS012,Job Card,,,,,JC0042,Closed,Emergency brake test,,,,user011,2025-09-12T20:00:00Z
 TS012,Job Card,,,,,JC0043,Closed,Interior cleaning,2025-09-07T21:00:00Z,,,user002,2025-09-12T20:00:00Z
-TS012,Job Card,,,,,JC0044,In Progress,Branding update,,,,user002,2025-09-12T20:00:00Z
-TS012,Mileage,,,,,,,,,197823,2025-09-10T21:00:00Z,user016,2025-09-12T20:00:00Z
+TS012,Job Card,,,,,JC0044,Closed,Branding update,,,,user002,2025-09-12T20:00:00Z
+TS012,Mileage,,,,,,,,,197823.0,2025-09-10T21:00:00Z,user016,2025-09-12T20:00:00Z
 TS013,Fitness Certificate,Rolling-Stock,2025-08-17T21:00:00Z,2025-09-16T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
-TS013,Fitness Certificate,Signalling,2025-07-19T21:00:00Z,2025-08-18T21:00:00Z,False,,,,,,,user016,2025-09-12T20:00:00Z
+TS013,Fitness Certificate,Signalling,2025-07-19T21:00:00Z,2025-08-18T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
 TS013,Fitness Certificate,Telecom,2025-07-15T21:00:00Z,2025-08-14T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
 TS013,Job Card,,,,,JC0045,Closed,Pantograph inspection,2025-08-17T21:00:00Z,,,user008,2025-09-12T20:00:00Z
-TS013,Job Card,,,,,JC0046,Pending Review,Brake pad replacement,,,,user008,2025-09-12T20:00:00Z
-TS013,Job Card,,,,,JC0047,In Progress,Pantograph inspection,,,,user015,2025-09-12T20:00:00Z
-TS013,Mileage,,,,,,,,,185150,2025-09-11T21:00:00Z,user009,2025-09-12T20:00:00Z
-TS014,Fitness Certificate,Rolling-Stock,2025-08-17T21:00:00Z,2025-09-16T21:00:00Z,False,,,,,,,user008,2025-09-12T20:00:00Z
-TS014,Fitness Certificate,Signalling,2025-08-21T21:00:00Z,2025-09-20T21:00:00Z,False,,,,,,,user008,2025-09-12T20:00:00Z
+TS013,Job Card,,,,,JC0046,Closed,Brake pad replacement,,,,user008,2025-09-12T20:00:00Z
+TS013,Job Card,,,,,JC0047,Closed,Pantograph inspection,,,,user015,2025-09-12T20:00:00Z
+TS013,Mileage,,,,,,,,,185150.0,2025-09-11T21:00:00Z,user009,2025-09-12T20:00:00Z
+TS014,Fitness Certificate,Rolling-Stock,2025-08-17T21:00:00Z,2025-09-16T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
+TS014,Fitness Certificate,Signalling,2025-08-21T21:00:00Z,2025-09-20T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
 TS014,Fitness Certificate,Telecom,2025-08-09T21:00:00Z,2025-09-08T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
-TS014,Job Card,,,,,JC0048,In Progress,Battery replacement,,,,user016,2025-09-12T20:00:00Z
+TS014,Job Card,,,,,JC0048,Closed,Battery replacement,,,,user016,2025-09-12T20:00:00Z
 TS014,Job Card,,,,,JC0049,Closed,Brake pad replacement,2025-08-21T21:00:00Z,,,user016,2025-09-12T20:00:00Z
-TS014,Job Card,,,,,JC0050,Pending Review,Branding update,,,,user009,2025-09-12T20:00:00Z
-TS014,Job Card,,,,,JC0051,Open,Pantograph inspection,,,,user009,2025-09-12T20:00:00Z
-TS014,Job Card,,,,,JC0052,In Progress,Communication equipment check,,,,user024,2025-09-12T20:00:00Z
-TS014,Mileage,,,,,,,,,132386,2025-09-10T21:00:00Z,user002,2025-09-12T20:00:00Z
+TS014,Job Card,,,,,JC0050,Closed,Branding update,,,,user009,2025-09-12T20:00:00Z
+TS014,Job Card,,,,,JC0051,Closed,Pantograph inspection,,,,user009,2025-09-12T20:00:00Z
+TS014,Job Card,,,,,JC0052,Closed,Communication equipment check,,,,user024,2025-09-12T20:00:00Z
+TS014,Mileage,,,,,,,,,132386.0,2025-09-10T21:00:00Z,user002,2025-09-12T20:00:00Z
 TS015,Fitness Certificate,Rolling-Stock,2025-08-07T21:00:00Z,2025-09-06T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS015,Fitness Certificate,Signalling,2025-07-17T21:00:00Z,2025-08-16T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS015,Fitness Certificate,Telecom,2025-08-21T21:00:00Z,2025-09-20T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
-TS015,Job Card,,,,,JC0053,In Progress,Bogie maintenance,,,,user011,2025-09-12T20:00:00Z
-TS015,Job Card,,,,,JC0054,Pending Review,Safety system test,,,,user024,2025-09-12T20:00:00Z
-TS015,Job Card,,,,,JC0055,Open,Interior cleaning,,,,user030,2025-09-12T20:00:00Z
+TS015,Job Card,,,,,JC0053,Closed,Bogie maintenance,,,,user011,2025-09-12T20:00:00Z
+TS015,Job Card,,,,,JC0054,Closed,Safety system test,,,,user024,2025-09-12T20:00:00Z
+TS015,Job Card,,,,,JC0055,Closed,Interior cleaning,,,,user030,2025-09-12T20:00:00Z
 TS015,Job Card,,,,,JC0056,Closed,Battery replacement,2025-09-10T21:00:00Z,,,user015,2025-09-12T20:00:00Z
-TS015,Job Card,,,,,JC0057,Open,Wheel inspection,,,,user024,2025-09-12T20:00:00Z
-TS015,Mileage,,,,,,,,,170027,2025-09-11T21:00:00Z,user011,2025-09-12T20:00:00Z
+TS015,Job Card,,,,,JC0057,Closed,Wheel inspection,,,,user024,2025-09-12T20:00:00Z
+TS015,Mileage,,,,,,,,,170027.0,2025-09-11T21:00:00Z,user011,2025-09-12T20:00:00Z
 TS016,Fitness Certificate,Rolling-Stock,2025-08-19T21:00:00Z,2025-09-18T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
 TS016,Fitness Certificate,Signalling,2025-07-15T21:00:00Z,2025-08-14T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
 TS016,Fitness Certificate,Telecom,2025-08-16T21:00:00Z,2025-09-15T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
-TS016,Job Card,,,,,JC0058,Pending Review,Branding update,,,,user015,2025-09-12T20:00:00Z
-TS016,Job Card,,,,,JC0059,In Progress,Wheel inspection,,,,user008,2025-09-12T20:00:00Z
+TS016,Job Card,,,,,JC0058,Closed,Branding update,,,,user015,2025-09-12T20:00:00Z
+TS016,Job Card,,,,,JC0059,Closed,Wheel inspection,,,,user008,2025-09-12T20:00:00Z
 TS016,Job Card,,,,,JC0060,Closed,Interior cleaning,2025-08-21T21:00:00Z,,,user015,2025-09-12T20:00:00Z
 TS016,Job Card,,,,,JC0061,Closed,Safety system test,2025-08-24T21:00:00Z,,,user009,2025-09-12T20:00:00Z
-TS016,Mileage,,,,,,,,,133225,2025-09-12T21:00:00Z,user009,2025-09-12T20:00:00Z
-TS017,Fitness Certificate,Rolling-Stock,2025-08-10T21:00:00Z,2025-09-09T21:00:00Z,False,,,,,,,user009,2025-09-12T20:00:00Z
+TS016,Mileage,,,,,,,,,133225.0,2025-09-12T21:00:00Z,user009,2025-09-12T20:00:00Z
+TS017,Fitness Certificate,Rolling-Stock,2025-08-10T21:00:00Z,2025-09-09T21:00:00Z,True,,,,,,,user009,2025-09-12T20:00:00Z
 TS017,Fitness Certificate,Signalling,2025-07-17T21:00:00Z,2025-08-16T21:00:00Z,True,,,,,,,user009,2025-09-12T20:00:00Z
-TS017,Fitness Certificate,Telecom,2025-07-25T21:00:00Z,2025-08-24T21:00:00Z,False,,,,,,,user009,2025-09-12T20:00:00Z
+TS017,Fitness Certificate,Telecom,2025-07-25T21:00:00Z,2025-08-24T21:00:00Z,True,,,,,,,user009,2025-09-12T20:00:00Z
 TS017,Job Card,,,,,JC0062,Closed,Wheel inspection,2025-08-27T21:00:00Z,,,user008,2025-09-12T20:00:00Z
-TS017,Job Card,,,,,JC0063,Open,Battery replacement,,,,user024,2025-09-12T20:00:00Z
-TS017,Job Card,,,,,JC0064,In Progress,HVAC maintenance,,,,user016,2025-09-12T20:00:00Z
-TS017,Job Card,,,,,JC0065,In Progress,Signal equipment check,,,,user016,2025-09-12T20:00:00Z
+TS017,Job Card,,,,,JC0063,Closed,Battery replacement,,,,user024,2025-09-12T20:00:00Z
+TS017,Job Card,,,,,JC0064,Closed,HVAC maintenance,,,,user016,2025-09-12T20:00:00Z
+TS017,Job Card,,,,,JC0065,Closed,Signal equipment check,,,,user016,2025-09-12T20:00:00Z
 TS017,Job Card,,,,,JC0066,Closed,Brake pad replacement,2025-09-10T21:00:00Z,,,user016,2025-09-12T20:00:00Z
-TS017,Mileage,,,,,,,,,142277,2025-09-12T21:00:00Z,user018,2025-09-12T20:00:00Z
+TS017,Mileage,,,,,,,,,142277.0,2025-09-12T21:00:00Z,user018,2025-09-12T20:00:00Z
 TS018,Fitness Certificate,Rolling-Stock,2025-07-14T21:00:00Z,2025-08-13T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
-TS018,Fitness Certificate,Signalling,2025-07-30T21:00:00Z,2025-08-29T21:00:00Z,False,,,,,,,user015,2025-09-12T20:00:00Z
+TS018,Fitness Certificate,Signalling,2025-07-30T21:00:00Z,2025-08-29T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
 TS018,Fitness Certificate,Telecom,2025-07-29T21:00:00Z,2025-08-28T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
-TS018,Job Card,,,,,JC0067,Open,LED light replacement,,,,user003,2025-09-12T20:00:00Z
-TS018,Job Card,,,,,JC0068,Pending Review,Signal equipment check,,,,user008,2025-09-12T20:00:00Z
-TS018,Job Card,,,,,JC0069,Pending Review,Brake pad replacement,,,,user024,2025-09-12T20:00:00Z
-TS018,Mileage,,,,,,,,,112662,2025-09-12T21:00:00Z,user018,2025-09-12T20:00:00Z
+TS018,Job Card,,,,,JC0067,Closed,LED light replacement,,,,user003,2025-09-12T20:00:00Z
+TS018,Job Card,,,,,JC0068,Closed,Signal equipment check,,,,user008,2025-09-12T20:00:00Z
+TS018,Job Card,,,,,JC0069,Closed,Brake pad replacement,,,,user024,2025-09-12T20:00:00Z
+TS018,Mileage,,,,,,,,,112662.0,2025-09-12T21:00:00Z,user018,2025-09-12T20:00:00Z
 TS019,Fitness Certificate,Rolling-Stock,2025-07-25T21:00:00Z,2025-08-24T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
-TS019,Fitness Certificate,Signalling,2025-07-26T21:00:00Z,2025-08-25T21:00:00Z,False,,,,,,,user008,2025-09-12T20:00:00Z
-TS019,Fitness Certificate,Telecom,2025-07-19T21:00:00Z,2025-08-18T21:00:00Z,False,,,,,,,user008,2025-09-12T20:00:00Z
-TS019,Job Card,,,,,JC0070,Pending Review,Exterior wash,,,,user009,2025-09-12T20:00:00Z
+TS019,Fitness Certificate,Signalling,2025-07-26T21:00:00Z,2025-08-25T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
+TS019,Fitness Certificate,Telecom,2025-07-19T21:00:00Z,2025-08-18T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
+TS019,Job Card,,,,,JC0070,Closed,Exterior wash,,,,user009,2025-09-12T20:00:00Z
 TS019,Job Card,,,,,JC0071,Closed,Emergency brake test,2025-08-22T21:00:00Z,,,user009,2025-09-12T20:00:00Z
-TS019,Job Card,,,,,JC0072,Pending Review,Communication equipment check,,,,user016,2025-09-12T20:00:00Z
-TS019,Mileage,,,,,,,,,115992,2025-09-09T21:00:00Z,user003,2025-09-12T20:00:00Z
+TS019,Job Card,,,,,JC0072,Closed,Communication equipment check,,,,user016,2025-09-12T20:00:00Z
+TS019,Mileage,,,,,,,,,115992.0,2025-09-09T21:00:00Z,user003,2025-09-12T20:00:00Z
 TS020,Fitness Certificate,Rolling-Stock,2025-08-08T21:00:00Z,2025-09-07T21:00:00Z,True,,,,,,,user009,2025-09-12T20:00:00Z
 TS020,Fitness Certificate,Signalling,2025-08-02T21:00:00Z,2025-09-01T21:00:00Z,True,,,,,,,user009,2025-09-12T20:00:00Z
 TS020,Fitness Certificate,Telecom,2025-07-20T21:00:00Z,2025-08-19T21:00:00Z,True,,,,,,,user009,2025-09-12T20:00:00Z
 TS020,Job Card,,,,,JC0073,Closed,Signal equipment check,2025-08-30T21:00:00Z,,,user008,2025-09-12T20:00:00Z
 TS020,Job Card,,,,,JC0074,Closed,HVAC maintenance,2025-08-29T21:00:00Z,,,user015,2025-09-12T20:00:00Z
 TS020,Job Card,,,,,JC0075,In Progress,Wheel inspection,,,,user018,2025-09-12T20:00:00Z
-TS020,Mileage,,,,,,,,,134496,2025-09-12T21:00:00Z,user016,2025-09-12T20:00:00Z
+TS020,Mileage,,,,,,,,,134496.0,2025-09-12T21:00:00Z,user016,2025-09-12T20:00:00Z
 TS021,Fitness Certificate,Rolling-Stock,2025-07-30T21:00:00Z,2025-08-29T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
-TS021,Fitness Certificate,Signalling,2025-07-18T21:00:00Z,2025-08-17T21:00:00Z,False,,,,,,,user015,2025-09-12T20:00:00Z
+TS021,Fitness Certificate,Signalling,2025-07-18T21:00:00Z,2025-08-17T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
 TS021,Fitness Certificate,Telecom,2025-07-24T21:00:00Z,2025-08-23T21:00:00Z,True,,,,,,,user015,2025-09-12T20:00:00Z
-TS021,Job Card,,,,,JC0076,In Progress,Pantograph inspection,,,,user015,2025-09-12T20:00:00Z
-TS021,Job Card,,,,,JC0077,Pending Review,Wheel inspection,,,,user024,2025-09-12T20:00:00Z
+TS021,Job Card,,,,,JC0076,Closed,Pantograph inspection,,,,user015,2025-09-12T20:00:00Z
+TS021,Job Card,,,,,JC0077,Closed,Wheel inspection,,,,user024,2025-09-12T20:00:00Z
 TS021,Job Card,,,,,JC0078,Closed,Exterior wash,2025-09-04T21:00:00Z,,,user009,2025-09-12T20:00:00Z
-TS021,Job Card,,,,,JC0079,Pending Review,Exterior wash,,,,user002,2025-09-12T20:00:00Z
-TS021,Mileage,,,,,,,,,130968,2025-09-10T21:00:00Z,user015,2025-09-12T20:00:00Z
+TS021,Job Card,,,,,JC0079,Closed,Exterior wash,,,,user002,2025-09-12T20:00:00Z
+TS021,Mileage,,,,,,,,,130968.0,2025-09-10T21:00:00Z,user015,2025-09-12T20:00:00Z
 TS022,Fitness Certificate,Rolling-Stock,2025-07-25T21:00:00Z,2025-08-24T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
 TS022,Fitness Certificate,Signalling,2025-07-15T21:00:00Z,2025-08-14T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
 TS022,Fitness Certificate,Telecom,2025-07-29T21:00:00Z,2025-08-28T21:00:00Z,True,,,,,,,user008,2025-09-12T20:00:00Z
-TS022,Job Card,,,,,JC0080,Pending Review,Door system repair,,,,user018,2025-09-12T20:00:00Z
+TS022,Job Card,,,,,JC0080,Closed,Door system repair,,,,user018,2025-09-12T20:00:00Z
 TS022,Job Card,,,,,JC0081,Closed,Brake pad replacement,2025-09-03T21:00:00Z,,,user015,2025-09-12T20:00:00Z
-TS022,Mileage,,,,,,,,,122906,2025-09-11T21:00:00Z,user018,2025-09-12T20:00:00Z
-TS023,Fitness Certificate,Rolling-Stock,2025-08-02T21:00:00Z,2025-09-01T21:00:00Z,False,,,,,,,user011,2025-09-12T20:00:00Z
-TS023,Fitness Certificate,Signalling,2025-08-06T21:00:00Z,2025-09-05T21:00:00Z,False,,,,,,,user011,2025-09-12T20:00:00Z
+TS022,Mileage,,,,,,,,,122906.0,2025-09-11T21:00:00Z,user018,2025-09-12T20:00:00Z
+TS023,Fitness Certificate,Rolling-Stock,2025-08-02T21:00:00Z,2025-09-01T21:00:00Z,True,,,,,,,user011,2025-09-12T20:00:00Z
+TS023,Fitness Certificate,Signalling,2025-08-06T21:00:00Z,2025-09-05T21:00:00Z,True,,,,,,,user011,2025-09-12T20:00:00Z
 TS023,Fitness Certificate,Telecom,2025-08-07T21:00:00Z,2025-09-06T21:00:00Z,True,,,,,,,user011,2025-09-12T20:00:00Z
-TS023,Job Card,,,,,JC0082,Open,Bogie maintenance,,,,user024,2025-09-12T20:00:00Z
-TS023,Job Card,,,,,JC0083,Open,Branding update,,,,user016,2025-09-12T20:00:00Z
-TS023,Job Card,,,,,JC0084,Open,Pantograph inspection,,,,user002,2025-09-12T20:00:00Z
-TS023,Job Card,,,,,JC0085,Open,Signal equipment check,,,,user016,2025-09-12T20:00:00Z
-TS023,Job Card,,,,,JC0086,Open,Safety system test,,,,user008,2025-09-12T20:00:00Z
-TS023,Mileage,,,,,,,,,111266,2025-09-11T21:00:00Z,user018,2025-09-12T20:00:00Z
+TS023,Job Card,,,,,JC0082,Closed,Bogie maintenance,,,,user024,2025-09-12T20:00:00Z
+TS023,Job Card,,,,,JC0083,Closed,Branding update,,,,user016,2025-09-12T20:00:00Z
+TS023,Job Card,,,,,JC0084,Closed,Pantograph inspection,,,,user002,2025-09-12T20:00:00Z
+TS023,Job Card,,,,,JC0085,Closed,Signal equipment check,,,,user016,2025-09-12T20:00:00Z
+TS023,Job Card,,,,,JC0086,Closed,Safety system test,,,,user008,2025-09-12T20:00:00Z
+TS023,Mileage,,,,,,,,,111266.0,2025-09-11T21:00:00Z,user018,2025-09-12T20:00:00Z
 TS024,Fitness Certificate,Rolling-Stock,2025-07-18T21:00:00Z,2025-08-17T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS024,Fitness Certificate,Signalling,2025-07-25T21:00:00Z,2025-08-24T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS024,Fitness Certificate,Telecom,2025-07-31T21:00:00Z,2025-08-30T21:00:00Z,True,,,,,,,user003,2025-09-12T20:00:00Z
 TS024,Job Card,,,,,JC0087,Closed,Battery replacement,2025-09-08T21:00:00Z,,,user030,2025-09-12T20:00:00Z
-TS024,Job Card,,,,,JC0088,Open,LED light replacement,,,,user009,2025-09-12T20:00:00Z
-TS024,Mileage,,,,,,,,,155470,2025-09-09T21:00:00Z,user015,2025-09-12T20:00:00Z
+TS024,Job Card,,,,,JC0088,Closed,LED light replacement,,,,user009,2025-09-12T20:00:00Z
+TS024,Mileage,,,,,,,,,155470.0,2025-09-09T21:00:00Z,user015,2025-09-12T20:00:00Z
 TS025,Fitness Certificate,Rolling-Stock,2025-08-19T21:00:00Z,2025-09-18T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
 TS025,Fitness Certificate,Signalling,2025-08-17T21:00:00Z,2025-09-16T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
 TS025,Fitness Certificate,Telecom,2025-07-16T21:00:00Z,2025-08-15T21:00:00Z,True,,,,,,,user016,2025-09-12T20:00:00Z
-TS025,Job Card,,,,,JC0089,In Progress,Wheel inspection,,,,user015,2025-09-12T20:00:00Z
-TS025,Job Card,,,,,JC0090,In Progress,HVAC maintenance,,,,user024,2025-09-12T20:00:00Z
-TS025,Mileage,,,,,,,,,164874,2025-09-10T21:00:00Z,user002,2025-09-12T20:00:00Z
+TS025,Job Card,,,,,JC0089,Closed,Wheel inspection,,,,user015,2025-09-12T20:00:00Z
+TS025,Job Card,,,,,JC0090,Closed,HVAC maintenance,,,,user024,2025-09-12T20:00:00Z
+TS025,Mileage,,,,,,,,,164874.0,2025-09-10T21:00:00Z,user002,2025-09-12T20:00:00Z
