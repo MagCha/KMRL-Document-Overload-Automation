@@ -1,0 +1,26 @@
+trainsetId,fleetNumber,currentStatus,lastUpdated,lastRevenueServiceDate,stablingPosition,notes
+TS001,1,Revenue Service,2025-09-08T10:00:00Z,2025-09-08T09:00:00Z,Bay001,Brake pad replacement
+TS002,2,Revenue Service,2025-09-06T19:00:00Z,2025-09-06T16:00:00Z,Bay002,Brake pad replacement
+TS003,3,Revenue Service,2025-09-09T12:00:00Z,2025-09-09T09:00:00Z,Bay003,Minor cleaning required
+TS004,4,Revenue Service,2025-09-11T16:00:00Z,2025-09-11T15:00:00Z,Bay004,Scheduled maintenance
+TS005,5,Revenue Service,2025-09-07T15:00:00Z,2025-09-07T12:00:00Z,Bay005,No issues
+TS006,6,Revenue Service,2025-09-05T14:00:00Z,2025-09-05T13:00:00Z,Bay006,Door system check
+TS007,7,Revenue Service,2025-09-11T16:00:00Z,2025-09-11T13:00:00Z,Bay007,Ready for service
+TS008,8,Revenue Service,2025-09-07T14:00:00Z,2025-09-07T12:00:00Z,Bay008,Minor cleaning required
+TS009,9,Revenue Service,2025-09-12T13:00:00Z,2025-09-12T11:00:00Z,Bay009,Branding update
+TS010,10,Standby,2025-09-11T19:00:00Z,2025-09-11T18:00:00Z,Bay010,Door system check
+TS011,11,Revenue Service,2025-09-08T20:00:00Z,2025-09-08T14:00:00Z,Bay011,Scheduled maintenance
+TS012,12,Revenue Service,2025-09-10T19:00:00Z,2025-09-10T16:00:00Z,Bay012,HVAC check
+TS013,13,Revenue Service,2025-09-08T16:00:00Z,2025-09-08T10:00:00Z,Bay013,Ready for service
+TS014,14,Revenue Service,2025-09-11T18:00:00Z,2025-09-11T12:00:00Z,Bay014,Brake pad replacement
+TS015,15,Standby,2025-09-09T23:00:00Z,2025-09-09T19:00:00Z,Bay015,Door system check
+TS016,16,Revenue Service,2025-09-08T17:00:00Z,2025-09-08T11:00:00Z,Bay016,Battery replacement
+TS017,17,Revenue Service,2025-09-09T14:00:00Z,2025-09-09T11:00:00Z,Bay017,No issues
+TS018,18,Standby,2025-09-10T00:00:00Z,2025-09-09T21:00:00Z,Bay018,Door system check
+TS019,19,Revenue Service,2025-09-08T22:00:00Z,2025-09-08T20:00:00Z,Bay019,Safety inspection completed
+TS020,20,Inspection Bay Line,2025-09-08T00:00:00Z,2025-09-07T18:00:00Z,Bay020,Signal system test
+TS021,21,Revenue Service,2025-09-06T15:00:00Z,2025-09-06T11:00:00Z,Bay021,Brake pad replacement
+TS022,22,Revenue Service,2025-09-08T21:00:00Z,2025-09-08T19:00:00Z,Bay022,Battery replacement
+TS023,23,Revenue Service,2025-09-08T15:00:00Z,2025-09-08T10:00:00Z,Bay023,Door system check
+TS024,24,Revenue Service,2025-09-06T18:00:00Z,2025-09-06T16:00:00Z,Bay024,Brake pad replacement
+TS025,25,Standby,2025-09-05T21:00:00Z,2025-09-05T20:00:00Z,Bay025,Minor cleaning required
