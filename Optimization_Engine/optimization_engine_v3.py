@@ -3,13 +3,13 @@ import pandas as pd
 from pymoo.core.problem import Problem
 from pymoo.algorithms.moo.nsga2 import NSGA2
 from pymoo.optimize import minimize
-from pymoo.visualization.scatter import Scatter
 from pymoo.core.callback import Callback
 import matplotlib.pyplot as plt
 
 # 1. Load and Process Data
 # =============================================================================
 try:
+    # Make sure this base_path is correct for your file structure
     base_path = "KMRL-Document-Overload-Automation/ArtificialData/"
     train_df = pd.read_csv(f"{base_path}trainsets.csv")
     hm_df = pd.read_csv(f"{base_path}health_and_maintenance.csv")
@@ -54,7 +54,7 @@ try:
     print("-------------------------------------------------")
 
 except FileNotFoundError as e:
-    print(f"Error: Could not find data files. Details: {e}")
+    print(f"Error: Could not find data files. Make sure the 'base_path' is correct. Details: {e}")
     exit()
 
 # 2. Define the 3-Objective Optimization Problem
@@ -101,7 +101,40 @@ res = minimize(problem,
                callback=callback,
                verbose=True)
 
-# 4. Visualization using pure Matplotlib
+# 4. Extract and Display Optimal Train Sets
+# =============================================================================
+print("\n--- Optimal Solutions Analysis ---")
+
+# res.X from NSGA2 contains float values (probabilities). We need to convert them to boolean.
+optimal_solutions_floats = res.X
+
+# res.F contains the objective values for each corresponding solution.
+optimal_objectives = res.F
+
+# Loop through each optimal solution found by the algorithm
+for i, solution_float_mask in enumerate(optimal_solutions_floats):
+    
+    # THE FIX: Convert the float array to a boolean array using a 0.5 threshold.
+    solution_mask = solution_float_mask > 0.5
+    
+    # Use the proper boolean mask to filter the DataFrame to get the selected trains
+    selected_trains_df = train_df[solution_mask]
+    
+    # Extract the list of trainset IDs
+    selected_ids = selected_trains_df['trainsetId'].tolist()
+    
+    # Get the objective values for this solution
+    mileage = optimal_objectives[i, 0]
+    punctuality_score = 100 - optimal_objectives[i, 1]  # Convert back from objective
+    branding_score = -optimal_objectives[i, 2]         # Convert back from objective
+    
+    print(f"\n✅ Optimal Fleet #{i+1}:")
+    print(f"   - Performance: [Mileage: {mileage:.0f}, Punctuality: {punctuality_score:.2f}%, Branding: {branding_score:.2f}]")
+    print(f"   - Selected Trains ({len(selected_ids)}): {selected_ids}")
+
+print("\n----------------------------------")
+
+# 5. Visualization using pure Matplotlib
 # =============================================================================
 # Get the final optimal solutions
 plot_f = np.copy(res.F)
@@ -109,7 +142,7 @@ plot_f[:, 1] = 100 - plot_f[:, 1]   # convert punctuality back to %
 branding_scores = -plot_f[:, 2]     # invert branding score
 
 # Collect history from callback
-history_f = np.vstack(callback.data["F"])   # fixed deprecation warning
+history_f = np.vstack(callback.data["F"])
 history_f[:, 1] = 100 - history_f[:, 1]
 
 # Plot history and final solutions using matplotlib
