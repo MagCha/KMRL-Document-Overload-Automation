@@ -136,6 +136,7 @@ celerybeat.pid
 
 # Environments
 .env
+firebase-service-account.json
 .envrc
 .venv
 env/

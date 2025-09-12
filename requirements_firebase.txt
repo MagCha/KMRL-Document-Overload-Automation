@@ -1,0 +1,7 @@
+# Firebase Requirements
+# Install these packages for Firebase integration
+
+firebase-admin>=6.2.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+requests>=2.28.0
