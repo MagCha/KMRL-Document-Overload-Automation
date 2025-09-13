@@ -1,0 +1,67 @@
+{
+  "csv_files_analyzed": [
+    "train_data.csv",
+    "cleaning_schedule.csv",
+    "train_status.csv"
+  ],
+  "question": "Which Train is due cleaning and which Train is out of service in the dataset?",
+  "answer": "Trains due for cleaning: TS004, TS005, TS007, TS008, TS013, TS014, TS015, TS021, TS022, TS025. Trains out of service: TS010, TS020",
+  "question_type": "filtering",
+  "summary": {
+    "total_files_analyzed": 3,
+    "total_trains_due_cleaning": 10,
+    "total_trains_out_of_service": 2
+  },
+  "trains_due_cleaning": [
+    {
+      "train_id": "TS004",
+      "train_name": "Hyundai"
+    },
+    {
+      "train_id": "TS005",
+      "train_name": "Paytm"
+    },
+    {
+      "train_id": "TS007",
+      "train_name": "Pepsi"
+    },
+    {
+      "train_id": "TS008",
+      "train_name": "Hyundai"
+    },
+    {
+      "train_id": "TS013",
+      "train_name": "ICICI"
+    },
+    {
+      "train_id": "TS014",
+      "train_name": "Pepsi"
+    },
+    {
+      "train_id": "TS015",
+      "train_name": "CocaCola"
+    },
+    {
+      "train_id": "TS021",
+      "train_name": "Mahindra"
+    },
+    {
+      "train_id": "TS022",
+      "train_name": "Airtel"
+    },
+    {
+      "train_id": "TS025",
+      "train_name": "Flipkart"
+    }
+  ],
+  "trains_out_of_service": [
+    {
+      "train_id": "TS010",
+      "train_name": "McDonald"
+    },
+    {
+      "train_id": "TS020",
+      "train_name": "Reliance"
+    }
+  ]
+}
