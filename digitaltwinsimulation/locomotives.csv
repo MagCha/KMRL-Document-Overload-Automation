@@ -1,0 +1,4 @@
+unit_id,type,year,year_built,capacity,avg_annual_mileage
+L1,Electric,2025,2015,6000,120000
+L2,Diesel,2025,2010,5000,150000
+L3,Electric,2025,2020,7000,50000

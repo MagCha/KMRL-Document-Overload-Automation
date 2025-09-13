@@ -1,0 +1,41 @@
+import pybullet as p
+import pybullet_data
+import time
+
+# Connect to PyBullet GUI
+p.connect(p.GUI)
+p.setGravity(0, 0, -9.8)
+p.setAdditionalSearchPath(pybullet_data.getDataPath())
+p.loadURDF("plane.urdf")
+
+# Load 1 locomotive + 3 coaches
+train_ids = []
+for i in range(4):
+    train_id = p.loadURDF("train.urdf", [i * 2.0, 0, 0.5])
+    train_ids.append(train_id)
+
+# Connect coaches with point-to-point constraints
+for i in range(len(train_ids) - 1):
+    p.createConstraint(
+        parentBodyUniqueId=train_ids[i],
+        parentLinkIndex=-1,
+        childBodyUniqueId=train_ids[i + 1],
+        childLinkIndex=-1,
+        jointType=p.JOINT_POINT2POINT,
+        jointAxis=[0, 0, 0],
+        parentFramePosition=[1.0, 0, 0],
+        childFramePosition=[-1.0, 0, 0]
+    )
+
+# Run simulation
+while True:
+    # Apply force to the first coach (locomotive)
+    p.applyExternalForce(
+        objectUniqueId=train_ids[0],
+        linkIndex=-1,
+        forceObj=[500, 0, 0],  # Forward along X
+        posObj=[0, 0, 0],
+        flags=p.WORLD_FRAME
+    )
+    p.stepSimulation()
+    time.sleep(1. / 240.)
